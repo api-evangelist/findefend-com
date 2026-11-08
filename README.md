@@ -1,4 +1,4 @@
-# findefend-com
+# FinDefend
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,110 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-findefend-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://findefend.com/
+FinDefend provides a SaaS platform that helps businesses identify and cancel recurring subscription charges they no longer need. By importing CSV bank statements or connecting financial data, the service automatically detects recurring vendor payments, alerts users to price hikes, and offers step‑by‑step cancellation guidance. It targets founders, small agencies, and any organization looking to reduce wasteful software spend, delivering weekly or daily scans and a clear savings projection. The platform emphasizes data privacy, processing transactions in memory without storing credentials, and promises easy opt‑out at any time.
+
+**Areas:** FinTech · SaaS · SubscriptionManagement · ExpenseTracking · Automation
+
+## FinDefend on APIs.io
+
+Everything profiled for FinDefend is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/findefend-com/](https://apis.io/providers/findefend-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [FinDefend Alerts API](https://apis.io/apis/findefend-com/findefend-com-alerts-api/) — The Alerts API from FinDefend — 2 operation(s) for alerts.
+- [FinDefend Export API](https://apis.io/apis/findefend-com/findefend-com-export-api/) — The Export API from FinDefend — 1 operation(s) for export.
+- [FinDefend Health API](https://apis.io/apis/findefend-com/findefend-com-health-api/) — The Health API from FinDefend — 1 operation(s) for health.
+- [FinDefend Summary API](https://apis.io/apis/findefend-com/findefend-com-summary-api/) — The Summary API from FinDefend — 1 operation(s) for summary.
+- [FinDefend Vendors API](https://apis.io/apis/findefend-com/findefend-com-vendors-api/) — The Vendors API from FinDefend — 2 operation(s) for vendors.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Findefend Com Agentic Access](https://apis.io/agentic-access/findefend-com/findefend-com-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [FinDefend API Rules](https://apis.io/rules/findefend-com/findefend-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Findefend Com Authentication](https://apis.io/security/findefend-com/findefend-com-authentication/)
+- [Findefend Com Domain Security](https://apis.io/security/findefend-com/findefend-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://findefend.com/)
+- [API reference](https://www.findefend.com/llms.txt)
+- [Pricing](https://www.findefend.com/pricing)
+- [Changelog](https://www.findefend.com/changelog)
+- [Blog](https://www.findefend.com/blog)
+- [Terms of service](https://www.findefend.com/terms)
+- [Privacy policy](https://www.findefend.com/privacy)
+- [Status](https://www.findefend.com/status)
+
+## API Evangelist rating
+
+**Kin Score 42.2** — developing · rubric 0.27.0 · scored 2026-11-08
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 39.6 |
+| Contract governance | 65.5 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 44.7 |
+
+**Agent readiness 28.7** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/findefend-com/](https://apis.io/providers/findefend-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for FinDefend: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/findefend-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
